@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pasteleria Benny</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="cuerpo">
+    <h1 class="benny">Pasteleria Benny</h1>
+    <img src="Siete.png" alt="Imagen de un pastel" class="pastel">
+
+    <p class="saludo">Bienvenido a la pagina de Pasteleria Benny, <br>aqui puede encontrar informacion acerca de nuestros servicios
+    y tambien hacer sus pedidos. <br>
+    Ven a Pasteleria Benny y conoce una travesia de sabores.</p>
+
+    <h3 class="menu">Menu de Sabores</h3> 
+    <ol class="sabores">
+        <li>Vainilla..........$200</li>
+        <li>Chocolate.........$400</li>
+        <li>Fresa.............$300</li>
+        <li>Platano...........$300</li>
+        <li>Naranja...........$180</li>
+        <li>Tres leches.......$570</li>
+        <li>Imposible.........$500</li>
+    </ol>
+
+    <h3 class="menuAdornos">Menu de Adornos</h3>
+    <dl class="adornos">
+        
+            <dt> 1.Fruta ...........................$100</dt>
+            <dd> <strong>Pueden venir de 2 a 5 diferentes frutas de su preferencia</strong></dd>
+            <dt> 2.Chispitas.........................$50</dt>
+            <dd><strong>Arcoiris o del color que usted prefiera</strong></dd>
+            <dt> 3.Betun.............................$85</dt>
+            <dd><strong>Sabor de su preferencia</strong></dd>
+            <dt> 4.Figuritas comestibles.............$250</dt>
+            <dd><strong>Vainilla o Chocolate</strong></dd>
+            <dt> 5.Perlas comestibles..................................$200</dt>
+            <dd><strong>Sabor y color de su preferencia</strong></dd>
+        
+    </dl>
+
+    <p class="formulario">Pedidos</p>
+    <form action="/enviarRespuesta">
+        
+        <label for="sabor" class="respuesta"> Sabor o sabores en su pastel: </label>
+            <input type="text" id="sabor" name="sabor" placeholder="Sabores"><br>
+        <label for="sabor" class="respuesta">Adornos en su pastel: </label>
+            <input type="text" id="sabor" name="sabor" placeholder="Adornos"><br>
+        <label for="sabor" class="respuesta">Cuantos pisos quiere en su pastel? </label>
+            <input type="number" name=sabor"" id="sabor"><br>
+        <label for="sabor" class="respuesta">Nombre del cliente: </label>
+            <input type="text" name="sabor" id="sabor"><br>
+
+        
+
+
+         <button type="submit">Enviar</button>
+    </form>
+
+
+
+    <footer>
+        <p class="datos">Datos de la Pasteleria</p>
+        <p class="datos">Direccion: Av. Simon Bolivar 74, Fracc. Las Americas Ecatepec</p>
+        <p class="datos">Telefono: 5524367690</p>
+        <p class="datos">Horarios: Lun a Vie --- 9:00hrs a 19:00hrs </p>
+        
+    </footer>
+
+</body>
+</html>
