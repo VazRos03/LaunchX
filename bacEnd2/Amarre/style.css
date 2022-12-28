@@ -1,0 +1,17 @@
+.cuerpo{
+    background-color: beige;
+}
+.preciosa{
+    width: 350px;
+    height: 70px;
+    background-color: cadetblue;
+    border-radius: 10px;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.boton{
+    border-radius: 10px;
+    background-color: transparent;
+    color: black;
+}
