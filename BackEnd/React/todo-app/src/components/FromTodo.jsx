@@ -2,15 +2,15 @@ import React, { useState } from "react";
 
 const FromTodo = props => {
     const [description, setDescription] = useState("");
-    const{addItem} = props;
+    const {addItem} = props;
 
-    const handleSubmit = e =>{
+    const handleSubmit = e =>{ //funcion para enviar la informacion
         e.preventDefault();
         console.log(description);
 
         addItem({
             done: false,
-            id: (new Date()).toString,
+            id: (new Date()).toString(),
             description
         });
 
@@ -18,7 +18,7 @@ const FromTodo = props => {
     }
 
     
-
+    //en onSubmit es la accion para mandar la informacion a la funcion
     return(
         <form onSubmit={handleSubmit}>
             <div className="todo-list">

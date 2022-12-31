@@ -1,0 +1,62 @@
+*{
+    margin:  0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: fantasy;
+}
+
+.container{
+    width: 90%;
+    height: 800px;
+    max-width: 800px;
+    min-width: 0px;
+    margin: 80px auto;
+    border: 3px solid #222;
+    display: flex;/*aqui ya estamo utilizando a flexbox y todas sus propiedades*/
+    flex-direction: row; 
+    /*Valores de flex-direction -> dice a la direccion  que quieres tus div o contenedores
+        row -> izquierda a derecha
+        row-reverse -> derecha a izquierda
+        column -> arriba hacia abajo
+        column-reverse -> abajo hacia arriba
+    */
+    flex-wrap:wrap; 
+
+    /* justify-content: space-evenly; */
+    /*center
+      space-betweem  
+      space-around 
+      space-evelyn
+    */
+    align-items: center; 
+    /* align-content: space-evelyn;cuando los elementos se desbordan del limite del ancho del contenedor */
+    flex-direction: row;
+}
+
+.element{
+    color: #ddd;
+    font-size: 2rem;
+    text-align: center;
+    line-height: 100px;
+    width: 100px;
+    height: 100px;
+    /*flex-grow: 1;determina el maximo de tamanio que van a tener los elementos del contenedor*/
+    /* flex-basis: 1500px; */
+}
+
+.element1{
+    background-color: seagreen;
+    /*order: 2;ordena los elemento dependiendo el valor que tenga, de mayor a menor*/
+    /*align-self: flex-end;alinea el elemento seleccionado*/
+    
+}
+.element2{
+    background-color: purple;
+    
+}
+.element3{
+    background-color: cornflowerblue;
+    
+}
